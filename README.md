@@ -109,5 +109,14 @@ Python >= 3.10, numpy, matplotlib, torch (only for 06).
 * Sutton, Noll, Fessler, *Fast iterative image reconstruction with field inhomogeneity*, IEEE TMI 22:178 (2003)
 * Aggarwal, Mani, Jacob, *MoDL*, IEEE TMI 38:394 (2019)
 
+## Acknowledgements
+This work stands on open-source MRI and NUFFT software, and I am grateful to their authors:
+
+* [MRI-NUFFT](https://github.com/mind-inria/mri-nufft): a unified Python interface to NUFFT back ends for MRI
+* [SigPy](https://github.com/mikgroup/sigpy): signal processing and iterative MRI reconstruction in Python
+* [BART](https://github.com/mrirecon/bart): the Berkeley Advanced Reconstruction Toolbox
+* [mlx-nufft](https://github.com/martinlachaine/mlx-nufft): non-uniform FFTs on Apple GPUs via Metal/MLX
+* [FINUFFT](https://github.com/flatironinstitute/finufft): the Flatiron Institute non-uniform FFT library
+
 ## Licence
 MIT
